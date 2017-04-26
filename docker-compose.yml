@@ -1,0 +1,29 @@
+portal:
+  image: nginx
+  ports:
+   - "8090:80"
+  volumes:
+   - /Users/Hugo/Development/docker/tomcat/config/default.conf:/etc/nginx/conf.d/default.conf
+  links:
+   - tomcatOne:tomcat1
+   - tomcatTwo:tomcat2
+   - tomcatThree:tomcat3
+tomcatOne:
+  image: tomcat:7-jre8
+  volumes:
+   - /Users/Hugo/Development/docker/tomcat/config/setenv.sh:/usr/local/tomcat/bin/setenv.sh
+   - /Users/Hugo/Development/docker/tomcat/tomcat1.1/webapps/:/usr/local/tomcat/webapps/
+   - /Users/Hugo/Development/docker/tomcat/tomcat1.1/logs/:/usr/local/tomcat/logs/
+tomcatTwo:
+  image: tomcat:7-jre8
+  volumes:
+   - /Users/Hugo/Development/docker/tomcat/config/setenv.sh:/usr/local/tomcat/bin/setenv.sh
+   - /Users/Hugo/Development/docker/tomcat/tomcat1.2/webapps/:/usr/local/tomcat/webapps/
+   - /Users/Hugo/Development/docker/tomcat/tomcat1.2/logs/:/usr/local/tomcat/logs/
+tomcatThree:
+  image: tomcat:7-jre8
+  volumes:
+   - /Users/Hugo/Development/docker/tomcat/config/setenv.sh:/usr/local/tomcat/bin/setenv.sh
+   - /Users/Hugo/Development/docker/tomcat/tomcat1.3/webapps/:/usr/local/tomcat/webapps/
+   - /Users/Hugo/Development/docker/tomcat/tomcat1.3/logs/:/usr/local/tomcat/logs/
+

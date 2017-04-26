@@ -1,0 +1,5 @@
+docker-compose up --force-recreate &
+docker-compose stop
+docker images
+docker ps
+docker ps -a
