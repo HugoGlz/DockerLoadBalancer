@@ -3,3 +3,27 @@ docker-compose stop
 docker images
 docker ps
 docker ps -a
+
+
+
+
+
+
+-v /Users/Hugo/Development/docker/tomcat/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+
+
+docker run -it --rm -p 8888:8080 -v /Users/Hugo/Development/docker/tomcat/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml tomcat:8.5
+
+
+SELECT name,createddate FROM BOL__c WHERE name like 'SV%' order by createddate desc limit 100
+
+
+/Users/Hugo/Development/docker/tomcat/logs/:/usr/local/tomcat/logs
+
+
+
+docker run -d -v server.xml:/usr/tomcat/conf/server.xml -v 
+tomcat-users.xml:/usr/tomcat/conf/tomcat-users.xml tomcat:7-jre8
+
+
+docker run -d -v server.xml:/usr/local/tomcat/conf/server.xml -v tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml tomcat:7-jre8

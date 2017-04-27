@@ -12,18 +12,36 @@ tomcatOne:
   image: tomcat:7-jre8
   volumes:
    - /Users/Hugo/Development/docker/tomcat/config/setenv.sh:/usr/local/tomcat/bin/setenv.sh
-   - /Users/Hugo/Development/docker/tomcat/tomcat1.1/webapps/:/usr/local/tomcat/webapps/
-   - /Users/Hugo/Development/docker/tomcat/tomcat1.1/logs/:/usr/local/tomcat/logs/
+   - /Users/Hugo/Development/docker/tomcat/config/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+   - /Users/Hugo/Development/docker/tomcat/webapps/ArepetServices.war:/usr/local/tomcat/webapps/ArepetServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/BaillysTransportServices.war:/usr/local/tomcat/webapps/BaillysTransportServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/BulkServices.war:/usr/local/tomcat/webapps/BulkServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/NorthernServices.war:/usr/local/tomcat/webapps/NorthernServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/PermianFracSandServices.war:/usr/local/tomcat/webapps/PermianFracSandServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/TransloadLogisticsServices.war:/usr/local/tomcat/webapps/TransloadLogisticsServices.war
+   - /Users/Hugo/Development/docker/tomcat/logs_tomcat_one/:/usr/local/tomcat/logs/
 tomcatTwo:
   image: tomcat:7-jre8
   volumes:
    - /Users/Hugo/Development/docker/tomcat/config/setenv.sh:/usr/local/tomcat/bin/setenv.sh
-   - /Users/Hugo/Development/docker/tomcat/tomcat1.2/webapps/:/usr/local/tomcat/webapps/
-   - /Users/Hugo/Development/docker/tomcat/tomcat1.2/logs/:/usr/local/tomcat/logs/
+   - /Users/Hugo/Development/docker/tomcat/config/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+   - /Users/Hugo/Development/docker/tomcat/webapps/ArepetServices.war:/usr/local/tomcat/webapps/ArepetServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/BaillysTransportServices.war:/usr/local/tomcat/webapps/BaillysTransportServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/BulkServices.war:/usr/local/tomcat/webapps/BulkServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/NorthernServices.war:/usr/local/tomcat/webapps/NorthernServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/PermianFracSandServices.war:/usr/local/tomcat/webapps/PermianFracSandServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/TransloadLogisticsServices.war:/usr/local/tomcat/webapps/TransloadLogisticsServices.war
+   - /Users/Hugo/Development/docker/tomcat/logs_tomcat_two/:/usr/local/tomcat/logs/
 tomcatThree:
   image: tomcat:7-jre8
   volumes:
    - /Users/Hugo/Development/docker/tomcat/config/setenv.sh:/usr/local/tomcat/bin/setenv.sh
-   - /Users/Hugo/Development/docker/tomcat/tomcat1.3/webapps/:/usr/local/tomcat/webapps/
-   - /Users/Hugo/Development/docker/tomcat/tomcat1.3/logs/:/usr/local/tomcat/logs/
+   - /Users/Hugo/Development/docker/tomcat/config/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+   - /Users/Hugo/Development/docker/tomcat/webapps/ArepetServices.war:/usr/local/tomcat/webapps/ArepetServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/BaillysTransportServices.war:/usr/local/tomcat/webapps/BaillysTransportServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/BulkServices.war:/usr/local/tomcat/webapps/BulkServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/NorthernServices.war:/usr/local/tomcat/webapps/NorthernServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/PermianFracSandServices.war:/usr/local/tomcat/webapps/PermianFracSandServices.war
+   - /Users/Hugo/Development/docker/tomcat/webapps/TransloadLogisticsServices.war:/usr/local/tomcat/webapps/TransloadLogisticsServices.war
+   - /Users/Hugo/Development/docker/tomcat/logs_tomcat_three/:/usr/local/tomcat/logs/
 

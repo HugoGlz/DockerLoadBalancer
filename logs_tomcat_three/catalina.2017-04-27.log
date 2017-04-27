@@ -1,0 +1,270 @@
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.77
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 28 2017 16:01:48 UTC
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.77.0
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.13-moby
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_121-8u121-b13-1~bpo8+1-b13
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Duser.timezone=America/Chicago
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/local/tomcat/endorsed
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Apr 27, 2017 11:00:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Apr 27, 2017 11:00:52 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.1.
+Apr 27, 2017 11:00:52 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 27, 2017 11:00:52 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0e  16 Feb 2017)
+Apr 27, 2017 11:00:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 27, 2017 11:00:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 27, 2017 11:00:53 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2815 ms
+Apr 27, 2017 11:00:53 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 27, 2017 11:00:53 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.77
+Apr 27, 2017 11:00:53 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/PermianFracSandServices.war
+Apr 27, 2017 11:00:57 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 27, 2017 11:00:58 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [111] milliseconds.
+Apr 27, 2017 11:00:58 AM com.sun.jersey.api.core.servlet.WebAppResourceConfig init
+INFO: Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+Apr 27, 2017 11:01:00 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.railtronix.wservices.permian.services.AddNewInboundTruck
+  class com.railtronix.wservices.services.GetJobs
+  class com.railtronix.wservices.permian.services.GetOperators
+  class com.railtronix.wservices.permian.services.AddNewTicket
+  class com.railtronix.wservices.services.GetTruckCarrier
+  class com.railtronix.wservices.services.GetCustomers
+  class com.railtronix.wservices.services.GetProducts
+  class com.railtronix.wservices.permian.services.AddVehicleToStorageUnit
+  class com.railtronix.wservices.services.GetRailcars
+  class com.railtronix.wservices.services.GetInboundPOs
+Apr 27, 2017 11:01:00 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Provider classes found:
+  class org.codehaus.jackson.jaxrs.JacksonJsonProvider
+  class org.codehaus.jackson.jaxrs.JsonMappingExceptionMapper
+  class org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider
+  class org.codehaus.jackson.jaxrs.JsonParseExceptionMapper
+Apr 27, 2017 11:01:00 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+Apr 27, 2017 11:01:03 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/PermianFracSandServices.war has finished in 9,576 ms
+Apr 27, 2017 11:01:03 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ArepetServices.war
+Apr 27, 2017 11:01:05 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 27, 2017 11:01:05 AM com.sun.jersey.api.core.servlet.WebAppResourceConfig init
+INFO: Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+Apr 27, 2017 11:01:07 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.railtronix.wservices.services.GetCustomers
+  class com.railtronix.wservices.arepet.services.AddNewInternalTransfer
+  class com.railtronix.wservices.services.GetProducts
+  class com.railtronix.wservices.services.GetRailcars
+  class com.railtronix.wservices.services.GetTruckCarrier
+  class com.railtronix.wservices.arepet.services.AddNewInboundTruck
+  class com.railtronix.wservices.services.GetInboundPOs
+  class com.railtronix.wservices.services.GetJobs
+  class com.railtronix.wservices.arepet.services.AddNewTicket
+Apr 27, 2017 11:01:07 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Apr 27, 2017 11:01:07 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+Apr 27, 2017 11:01:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ArepetServices.war has finished in 6,330 ms
+Apr 27, 2017 11:01:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/NorthernServices.war
+Apr 27, 2017 11:01:11 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 27, 2017 11:01:12 AM com.sun.jersey.api.core.servlet.WebAppResourceConfig init
+INFO: Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+Apr 27, 2017 11:01:13 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.railtronix.wservices.services.GetJobs
+  class com.railtronix.wservices.services.GetRailcars
+  class com.railtronix.wservices.services.GetTruckCarrier
+  class com.railtronix.wservices.services.GetProducts
+  class com.railtronix.wservices.northern.services.AddNewInboundTruck
+  class com.railtronix.wservices.northern.services.AddNewTicket
+  class com.railtronix.wservices.services.GetInboundPOs
+  class com.railtronix.wservices.services.GetCustomers
+  class com.railtronix.wservices.northern.services.GetVehicleCycles
+  class com.railtronix.wservices.northern.services.AddVehicleToStorageUnit
+Apr 27, 2017 11:01:13 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Apr 27, 2017 11:01:13 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+Apr 27, 2017 11:01:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/NorthernServices.war has finished in 6,693 ms
+Apr 27, 2017 11:01:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/BulkServices.war
+Apr 27, 2017 11:01:18 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 27, 2017 11:01:18 AM com.sun.jersey.api.core.servlet.WebAppResourceConfig init
+INFO: Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+Apr 27, 2017 11:01:19 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.railtronix.wservices.services.GetJobs
+  class com.railtronix.wservices.bulk.services.AddNewTicket
+  class com.railtronix.wservices.services.GetRailcars
+  class com.railtronix.wservices.services.GetCustomers
+  class com.railtronix.wservices.bulk.services.AddNewInboundTruck
+  class com.railtronix.wservices.bulk.services.GetVehicleCycles
+  class com.railtronix.wservices.services.GetInboundPOs
+  class com.railtronix.wservices.services.GetTruckCarrier
+  class com.railtronix.wservices.services.GetProducts
+  class com.railtronix.wservices.bulk.services.AddVehicleToStorageUnit
+Apr 27, 2017 11:01:19 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Apr 27, 2017 11:01:20 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+Apr 27, 2017 11:01:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/BulkServices.war has finished in 6,201 ms
+Apr 27, 2017 11:01:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/TransloadLogisticsServices.war
+Apr 27, 2017 11:01:24 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 27, 2017 11:01:25 AM com.sun.jersey.api.core.servlet.WebAppResourceConfig init
+INFO: Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+Apr 27, 2017 11:01:26 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.railtronix.wservices.transload.services.AddNewTicket
+  class com.railtronix.wservices.services.GetJobs
+  class com.railtronix.wservices.services.GetProducts
+  class com.railtronix.wservices.services.GetCustomers
+  class com.railtronix.wservices.services.GetRailcars
+  class com.railtronix.wservices.transload.services.AddVehicleToStorageUnit
+  class com.railtronix.wservices.services.GetInboundPOs
+  class com.railtronix.wservices.services.GetTruckCarrier
+  class com.railtronix.wservices.transload.services.AddNewInboundTruck
+Apr 27, 2017 11:01:26 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Apr 27, 2017 11:01:26 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+Apr 27, 2017 11:01:28 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/TransloadLogisticsServices.war has finished in 6,406 ms
+Apr 27, 2017 11:01:28 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/BaillysTransportServices.war
+Apr 27, 2017 11:01:31 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 27, 2017 11:01:31 AM com.sun.jersey.api.core.servlet.WebAppResourceConfig init
+INFO: Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+Apr 27, 2017 11:01:33 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.railtronix.wservices.services.GetInboundPOs
+  class com.railtronix.wservices.baillys.services.AddVehicleToStorageUnit
+  class com.railtronix.wservices.services.GetRailcars
+  class com.railtronix.wservices.services.GetCustomers
+  class com.railtronix.wservices.services.GetTruckCarrier
+  class com.railtronix.wservices.baillys.services.GetVehicleCycles
+  class com.railtronix.wservices.baillys.services.AddNewTicket
+  class com.railtronix.wservices.baillys.services.AddNewInboundTruck
+  class com.railtronix.wservices.services.GetProducts
+  class com.railtronix.wservices.services.GetJobs
+Apr 27, 2017 11:01:33 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Apr 27, 2017 11:01:33 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+Apr 27, 2017 11:01:35 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/BaillysTransportServices.war has finished in 6,466 ms
+Apr 27, 2017 11:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/docs
+Apr 27, 2017 11:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 79 ms
+Apr 27, 2017 11:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/examples
+Apr 27, 2017 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 518 ms
+Apr 27, 2017 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/ROOT
+Apr 27, 2017 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 140 ms
+Apr 27, 2017 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/host-manager
+Apr 27, 2017 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 190 ms
+Apr 27, 2017 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/manager
+Apr 27, 2017 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 130 ms
+Apr 27, 2017 11:01:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 27, 2017 11:01:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 27, 2017 11:01:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 43599 ms
+Apr 27, 2017 11:19:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 27, 2017 11:19:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 27, 2017 11:19:12 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 27, 2017 11:19:12 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/NorthernServices] registered the JDBC driver [net.sourceforge.jtds.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Apr 27, 2017 11:19:12 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/NorthernServices] appears to have started a thread named [AsyncAppender-Dispatcher-Thread-3] but has failed to stop it. This is very likely to create a memory leak.
+Apr 27, 2017 11:19:12 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/NorthernServices] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Apr 27, 2017 11:19:12 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/NorthernServices] appears to have started a thread named [jTDS TimerThread] but has failed to stop it. This is very likely to create a memory leak.
+Apr 27, 2017 11:19:12 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/BulkServices] registered the JDBC driver [net.sourceforge.jtds.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Apr 27, 2017 11:19:12 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/BulkServices] appears to have started a thread named [AsyncAppender-Dispatcher-Thread-6] but has failed to stop it. This is very likely to create a memory leak.
+Apr 27, 2017 11:19:12 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/BulkServices] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+Apr 27, 2017 11:19:12 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/BulkServices] appears to have started a thread named [jTDS TimerThread] but has failed to stop it. This is very likely to create a memory leak.
+Apr 27, 2017 11:19:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Apr 27, 2017 11:19:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Apr 27, 2017 11:19:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Apr 27, 2017 11:19:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
