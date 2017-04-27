@@ -1,2 +1,5 @@
 **/.DS_Store
+logs_tomcat_one/*
+logs_tomcat_two/*
+logs_tomcat_three/*
 webapps/*
