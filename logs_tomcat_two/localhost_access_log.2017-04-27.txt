@@ -1,8 +1,0 @@
-172.17.0.5 - - [27/Apr/2017:11:03:48 -0500] "GET /NorthernServices/services/GetRailcars?token=Sl12xlL0&transloadId=ER HTTP/1.0" 200 23235
-172.17.0.5 - - [27/Apr/2017:11:04:14 -0500] "GET /NorthernServices/services/GetRailcars?token=Sl12xlL0&transloadId=ER HTTP/1.0" 200 23235
-172.17.0.5 - - [27/Apr/2017:11:05:12 -0500] "GET /NorthernServices/services/GetRailcars?token=Sl12lL0&transloadId=ER HTTP/1.0" 400 190
-172.17.0.5 - - [27/Apr/2017:11:06:21 -0500] "GET /NorthernServices/services/GetRailcars?token=Sl12xlL0&transloadId=ER HTTP/1.0" 200 23235
-172.17.0.5 - - [27/Apr/2017:11:08:14 -0500] "PUT /NorthernServices/services/AddNewTicket HTTP/1.0" 400 201
-172.17.0.5 - - [27/Apr/2017:11:13:54 -0500] "GET /BaillysTransportServices/services/GetJobs?token=q8WksFTy&transloadId=DD HTTP/1.0" 200 3527
-172.17.0.5 - - [27/Apr/2017:11:15:14 -0500] "GET /BulkServices/services/GetRailcars?token=V93qk5lT&transloadId=MH HTTP/1.0" 200 22296
-172.17.0.5 - - [27/Apr/2017:11:18:23 -0500] "GET /TransloadLogisticsServices/services/GetRailcars?token=LhT09SAI&transloadId=OKC HTTP/1.0" 200 128763

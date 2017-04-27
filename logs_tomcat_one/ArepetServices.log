@@ -1,3 +1,0 @@
-[INFO] 2017-04-27 11:13:38,520 com.railtronix.bridge.ws.connection.SessionHandler - Sending query to SForce: SELECT id, name, Product__r.name, Amount_Lbs__c, Shipper__r.name, Shipper__r.address_1__c,Product__r.Product_Code__c FROM Inbound_PO__c WHERE Transload_ID__c ='SA' ORDER BY id LIMIT 2000 [ArepetServices]
-[INFO] 2017-04-27 11:13:39,455 com.railtronix.wservices.services.GetInboundPOs - Found (326) inboundpos to be discharged [ArepetServices]
-[INFO] 2017-04-27 11:13:45,664 com.railtronix.wservices.scantracker.TransactionLogger - ScanTracker Trans(Thread6153279-1493309624859)  - Method: GetInboundPOs [ArepetServices]
